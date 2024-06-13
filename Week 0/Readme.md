@@ -1,4 +1,3 @@
-# VSD-HD
 Yosys
 
     sudo apt-get update
