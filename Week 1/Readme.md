@@ -22,8 +22,7 @@
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/2a300b8a-46e4-4f10-8929-eccdfe83f5da)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/25bfe245-332d-4b9b-85f7-ccd3480b18fc)
 
-## Hierchial Synthesis - Flat Synthesis
-# Hierchial
+## hierarchical Synthesis - Flat Synthesis
 
     yosys
     read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -47,6 +46,11 @@
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/c5c81aa7-4fd7-4be8-b29d-db6b6b5e50e8)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/1024687c-8d51-4a89-8da9-7e87e8227291)
 
+    read_verilog multiple_modules.v
+    synth -top sub_module1
+    abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+    show 
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/7fbe75e7-9e30-4714-8dc0-38c7208fdfbf)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/630d9bdf-6a39-4e8e-b7c1-b216f312ac0e)
 
     
