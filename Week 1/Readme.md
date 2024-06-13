@@ -55,7 +55,9 @@
 
 #Various Flop Coding Styles and optimization
 
-![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/b3b76eaa-a333-4bb1-bf80-6b15c1905bf8)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/85c213d0-8ecd-4247-8503-3ab6925f893b)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/39b0ddda-6763-4461-964b-f6a9e476ca36)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/2d593be5-c05e-41c3-aad1-7f7237cb68c6)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/aca25a04-4b6e-4ed8-9fed-0eb604384dcc)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/03189f90-29ee-4598-ab35-db7644a625a2)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/35d1dc8e-6ad1-49d6-9551-48d920315e39)
