@@ -53,5 +53,18 @@
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/7fbe75e7-9e30-4714-8dc0-38c7208fdfbf)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/630d9bdf-6a39-4e8e-b7c1-b216f312ac0e)
 
+#Various Flop Coding Styles and optimization
+
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/b3b76eaa-a333-4bb1-bf80-6b15c1905bf8)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/aca25a04-4b6e-4ed8-9fed-0eb604384dcc)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/03189f90-29ee-4598-ab35-db7644a625a2)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/35d1dc8e-6ad1-49d6-9551-48d920315e39)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/8e3866fb-089d-45ef-8431-1ead64b041cb)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/d77a5eba-ee1a-4639-8bbe-f3e36d965a8a)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/2a9835d2-f9a2-49e6-989b-a4edf9696e07)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/2a65eeb3-0977-44ef-9f2a-6a4db6e8d85f)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/491071f5-9a71-46ee-9242-20147745cece)
+
+
     
 
