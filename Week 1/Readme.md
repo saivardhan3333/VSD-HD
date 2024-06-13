@@ -1,6 +1,9 @@
 ## Intro to RTL design and sysnthesis
     sudo apt-get install git 
     git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop
+    iverilog good_mux.v tb_good_mux.v
+    ./a.out
+    gtkwave tb_good_mux.vcd
     
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/cc01300a-7138-4dc5-8486-c7c14e6fb597)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/a27021f3-44cb-4423-ba46-49aba9d543b9)
