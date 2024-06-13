@@ -44,7 +44,7 @@
     write_verilog multiple_modules_flat.v
     !gvim multiple_modules_flat.v
 
-![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/4ac5a763-dd00-4163-941e-91ad19253576)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/c5c81aa7-4fd7-4be8-b29d-db6b6b5e50e8)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/1024687c-8d51-4a89-8da9-7e87e8227291)
 
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/630d9bdf-6a39-4e8e-b7c1-b216f312ac0e)
