@@ -10,9 +10,17 @@ Multiple module
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/2127d8c9-e313-41ba-a1cf-60b5fee3276d)
 
 
+dff_const1
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/52f9361d-3882-4c1e-8259-cc1886838f6e)
+dff_const2
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/ef1bd36c-fa9e-4be4-b64a-614c83b7e9e4)
 dff_const3
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/ccffe015-0b9a-49a4-9620-8f9c0ae58cec)
 dff_const4
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/ede7b6a1-aa10-4863-841f-65c6375cf6e0)
 dff_const5
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/e799f5b2-9def-4630-b534-14e0bb740094)
+Counter with 1 flip flop
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/48f6fef7-4b54-47b0-97f4-c72c9ecf3f2f)
+Counter with 3 flipflops
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/b0b0701c-f658-48fa-92a1-3f50b940f23f)
