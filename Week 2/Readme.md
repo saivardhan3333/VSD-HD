@@ -24,3 +24,20 @@ Counter with 1 flip flop
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/48f6fef7-4b54-47b0-97f4-c72c9ecf3f2f)
 Counter with 3 flipflops
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/b0b0701c-f658-48fa-92a1-3f50b940f23f)
+
+#GLS, blocking vs non-blocking and Synthesis-Simulation mismatch
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/24871716-a4b2-4146-b3a7-aa898b128083)
+After GLS
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/1e71b0db-5bb6-456f-8a2d-778cb8ed436e)
+
+Bad_mux
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/02366691-15b6-453b-a74f-0b2394860b86)
+After GLS
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/7935a265-a15a-4386-817c-801e8c348b5d)
+
+Blocking statement
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/57afd45d-d7b6-42d9-b25e-e5858d4612f9)
+After GLS
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/92f25ac2-c492-434a-8d79-bec37b51802c)
+
+
