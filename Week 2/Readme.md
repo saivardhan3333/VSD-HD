@@ -26,8 +26,8 @@ Counter with 1 flip flop
 Counter with 3 flipflops
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/b0b0701c-f658-48fa-92a1-3f50b940f23f)
 
-##Day 4
-#GLS, blocking vs non-blocking and Synthesis-Simulation mismatch
+# Day 4
+## GLS, blocking vs non-blocking and Synthesis-Simulation mismatch
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/24871716-a4b2-4146-b3a7-aa898b128083)
 After GLS
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/1e71b0db-5bb6-456f-8a2d-778cb8ed436e)
