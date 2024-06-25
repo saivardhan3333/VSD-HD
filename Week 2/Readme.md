@@ -1,5 +1,5 @@
-#Day 3
-##Combinational and sequential optmizations
+# Day 3
+## Combinational and sequential optmizations
 
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/95cf351c-da74-47ed-91f5-bcc9e1eeb063)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/a3a31022-c96e-47df-ab08-11be069a6bdb)
