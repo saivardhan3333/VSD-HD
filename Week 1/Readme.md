@@ -1,3 +1,4 @@
+# Day 1
 ## Intro to RTL design and Logic sysnthesis
     sudo apt-get install git 
     git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop
@@ -22,7 +23,8 @@
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/2a300b8a-46e4-4f10-8929-eccdfe83f5da)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/25bfe245-332d-4b9b-85f7-ccd3480b18fc)
 
-## Hierarchical Synthesis - Flat Synthesis
+# Day 2
+## Hierarchical Synthesis Vs Flat Synthesis
 
     yosys
     read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
