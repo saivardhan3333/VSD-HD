@@ -1,6 +1,6 @@
 # Basic C
 
-    sudo snap install leafpad
+    sudo apt install leafpad
     leafpad sum1ton.c &
     gcc sum1ton.c
     ./a.out
