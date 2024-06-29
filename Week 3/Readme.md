@@ -25,8 +25,8 @@
         /main
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/487bbc60-5626-4800-be1c-dbe217924d5f)
 
-![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/622a439f-1ce5-4844-86a9-23893f1636ee)
-
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/2fe8a7a0-4e1f-4ab6-ae02-6169960ddd0d)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/fddf724c-0c9f-4e0d-8cf9-562414f1aff3)
 
 ## Simulation of riscv
 
