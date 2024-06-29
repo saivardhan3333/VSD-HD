@@ -24,7 +24,6 @@
         riscv64-unknown-elf-objdump -d sum1ton.o | less
         /main
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/487bbc60-5626-4800-be1c-dbe217924d5f)
-We can conclude from this information that the amount of instructions varies depending on the optimisation flags used. It's evident that using the Ofast optimisation flag results in fewer instructions(11) than using the O1 optimisation flag(14).
 
 ## Simulation of riscv
 
