@@ -24,7 +24,30 @@
         riscv64-unknown-elf-objdump -d sum1ton.o | less
         /main
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/487bbc60-5626-4800-be1c-dbe217924d5f)
+We can conclude from this information that the amount of instructions varies depending on the optimisation flags used. It's evident that using the Ofast optimisation flag results in fewer instructions(11) than using the O1 optimisation flag(14).
 
 ## Simulation of riscv
+
+        git clone https://github.com/siddharthanand3/vsdhdp
+        cd rv32i
+        iverilog iiitb_rv32i.v iiitb_rv32i_tb.v
+        ./a.out
+        gtkwave iiitb_rv32i.vcd
+
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/aebd6e43-ed82-4b87-b6a6-8e5b9c57c8b2)
+
+## Synthesis of RiscV
+
+        read_liberty -lib lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+        read_verilog iiitb_rv32i.v
+        synth -top rv32i	
+        dfflibmap -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+        proc ; opt
+        abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+        clean
+        flatten
+        write_verilog -noattr iiitb_rv32i_synth.v
+
+        
 
         
