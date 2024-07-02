@@ -27,7 +27,7 @@ The Assembly Language code of our C code is displayed using below commands
         riscv64-unknown-elf-objdump -d sum1ton.o | less
         /main
 The main function's instruction count with -O1 optimisation is 14
-![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/482d9d01-42ff-4032-9909-c54c9011a1ac)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/0dfaa38c-ea8c-4383-86b7-1605e30df995)
 
         riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
         riscv64-unknown-elf-objdump -d sum1ton.o | less
