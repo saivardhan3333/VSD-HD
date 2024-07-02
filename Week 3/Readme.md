@@ -7,6 +7,8 @@ Executed the sum of the numbers from 1 to n the C code using gcc and riscv compi
     ./a.out
 
 Here is C programe for sum 1 to n in leafpad editor
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/a0906edc-a651-40f1-892c-08e46596e711)
+
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/2dd738e0-542f-4cef-9430-6f8c50cc3935)
 
 Output of the above code
