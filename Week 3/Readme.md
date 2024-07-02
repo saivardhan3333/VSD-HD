@@ -36,9 +36,14 @@ Using -Ofast Optimization number of instructions are reduced to 11
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/15796d57-7b9f-47d9-a34d-4f77f25d6afa)
 
 ## Simulation of riscv
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/204ea012-ac5d-4f8d-b898-562cebf0a373)
 
-    
-![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/aebd6e43-ed82-4b87-b6a6-8e5b9c57c8b2)
+    iverilog rv32i.v rv32i_tb.v
+    ./a.out
+    gtkwave rv32i.vsd
+From rv32i.v design we can observe that the designers of this code has hard coded the instrcutions.Below fig shows the instructions
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/12a94d34-ca23-4fed-b190-58c3daf73c96)
+
 
 ## Synthesis of RiscV
 
