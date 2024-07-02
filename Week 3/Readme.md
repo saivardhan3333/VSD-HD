@@ -45,7 +45,10 @@ From rv32i.v design we can observe that the designers of this code has hard code
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/12a94d34-ca23-4fed-b190-58c3daf73c96)
 
 > ADD R6, R2, R1
+
+As we can observe that value stored in registers are 1 and 2 and the output in next cycle is 3.
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/eb3ff81f-844e-4e71-92c9-ebc19bf30742)
+
 > Sub
 
 
