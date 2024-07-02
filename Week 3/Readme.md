@@ -44,6 +44,11 @@ Using -Ofast Optimization number of instructions are reduced to 11
 From rv32i.v design we can observe that the designers of this code has hard coded the instrcutions.Below fig shows the instructions
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/12a94d34-ca23-4fed-b190-58c3daf73c96)
 
+> ADD R6, R2, R1
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/eb3ff81f-844e-4e71-92c9-ebc19bf30742)
+> Sub
+
+
 
 ## Synthesis of RiscV
 
