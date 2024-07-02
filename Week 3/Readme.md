@@ -6,7 +6,9 @@ Executed the sum of the numbers from 1 to n the C code using gcc and riscv compi
     gcc sum1ton.c
     ./a.out
 
+| Here is C-code for sum 1 to n 
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/2dd738e0-542f-4cef-9430-6f8c50cc3935)
+| Output of the above code
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/f542d1a0-d210-4275-90f8-fcc586f47851)
 
 ## Risc V
