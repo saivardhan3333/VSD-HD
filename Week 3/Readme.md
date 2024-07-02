@@ -33,12 +33,11 @@ The main function's instruction count with -O1 optimisation is 14
         riscv64-unknown-elf-objdump -d sum1ton.o | less
         /main
 Using -Ofast Optimization number of instructions are reduced to 11
-![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/487bbc60-5626-4800-be1c-dbe217924d5f)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/15796d57-7b9f-47d9-a34d-4f77f25d6afa)
 
 ## Simulation of riscv
 
-      
-
+    
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/aebd6e43-ed82-4b87-b6a6-8e5b9c57c8b2)
 
 ## Synthesis of RiscV
