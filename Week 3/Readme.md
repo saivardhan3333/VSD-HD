@@ -1,3 +1,4 @@
+Executed the sum of the numbers from 1 to n the C code using gcc and riscv compiler
 ## Basic C
 
     sudo apt install leafpad
