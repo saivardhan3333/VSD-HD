@@ -26,17 +26,14 @@ The Assembly Language code of our C code is displayed using below commands
         riscv64-unknown-elf-objdump -d sum1ton.o
         riscv64-unknown-elf-objdump -d sum1ton.o | less
         /main
-The number of instructions that are present in the main function with O1 optimization:
+The main function's instruction count with -O1 optimisation is 14
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/482d9d01-42ff-4032-9909-c54c9011a1ac)
 
         riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
         riscv64-unknown-elf-objdump -d sum1ton.o | less
         /main
+Using -Ofast Optimization number of instructions are reduced to 11
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/487bbc60-5626-4800-be1c-dbe217924d5f)
-
-
-![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/2fe8a7a0-4e1f-4ab6-ae02-6169960ddd0d)
-![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/fddf724c-0c9f-4e0d-8cf9-562414f1aff3)
 
 ## Simulation of riscv
 
