@@ -63,6 +63,8 @@ Value1  = 2(0010), Value2 = 5(0101), Output = 7(0111)
 > SLT R1, R2, R4
 
 r1 is the destination register that sets to 1, if r2 is less than r4, else 0 if r2 is greater than r4.
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/d707d4ee-2c27-403d-9c4a-86d5b7a72aad)
+
 
 > ADDI R12, R4, 5
 
