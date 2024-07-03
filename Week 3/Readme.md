@@ -96,7 +96,7 @@ If the values in r0 and r1 are equal, the program continues normally to the next
     clean
     flatten
     write_verilog  -noattr rv32i_synth.v
-![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/16391782-3db6-4db8-b5cb-f51e6a35c4cb)
+rv32i_synth file is generated as we can see in below figure
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/1b8ca17e-b148-4db1-b616-121dbd8228d4)
 
 </details>
