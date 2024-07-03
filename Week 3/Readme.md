@@ -111,12 +111,13 @@ If the values in r0 and r1 are equal, the program continues normally to the next
 <details>
     <summary> GLS Simulation </summary>
 
-        iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v         rv32i_synth.v rv32i_tb.v
+    iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v         rv32i_synth.v rv32i_tb.v
     ./a.out
     gtkwave rv32i.vcd
 The output waveform for the RTL design file and the gtkwave output for the netlist must match perfectly. We used the same testbench and compared the waveforms because the netlist and design code have the same set of inputs and outputs.
 
-Below we can observe > ADD R6, R2, R1 and SUB R7, R1, R2
+Below we can observe
+> ADD R6, R2, R1 and SUB R7, R1, R2
 
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/f47a6a8e-d911-4560-be8c-b7a9c8b691e1)
 
