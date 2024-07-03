@@ -1,6 +1,4 @@
-Executed the sum of the numbers from 1 to n the C code using gcc and riscv compiler
 <details>
-    
 <summary> Basic C </summary>
 
     sudo apt install leafpad
@@ -42,7 +40,7 @@ Using -Ofast Optimization number of instructions are reduced to 11
 </details>
 
 <details>
-<summary>Simulation of riscv</summary>
+<summary>Simulation of RiscV</summary>
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/204ea012-ac5d-4f8d-b898-562cebf0a373)
 
     iverilog rv32i.v rv32i_tb.v
@@ -93,7 +91,8 @@ If the values in r0 and r1 are equal, the program continues normally to the next
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/7bafb4e9-0caa-4105-ac95-f63eddaf975a)
 </details>
 
-## Synthesis of RiscV
+<details>
+<Summary>Synthesis of RiscV</Summary>
 
      
 
