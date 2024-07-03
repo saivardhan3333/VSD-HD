@@ -1,6 +1,6 @@
-# Day 3
-## Combinational and sequential optmizations
-
+<details>
+<summary>Combinational and sequential optmizations</summary>
+  
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/95cf351c-da74-47ed-91f5-bcc9e1eeb063)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/a3a31022-c96e-47df-ab08-11be069a6bdb)
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/47f1c948-30d7-4987-b9ba-3c980f660d98)
@@ -25,9 +25,11 @@ Counter with 1 flip flop
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/48f6fef7-4b54-47b0-97f4-c72c9ecf3f2f)
 Counter with 3 flipflops
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/b0b0701c-f658-48fa-92a1-3f50b940f23f)
+</details>
 
-# Day 4
-## GLS, blocking vs non-blocking and Synthesis-Simulation mismatch
+<details>
+<summary>GLS, blocking vs non-blocking and Synthesis-Simulation mismatch</summary>
+  
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/24871716-a4b2-4146-b3a7-aa898b128083)
 After GLS
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/1e71b0db-5bb6-456f-8a2d-778cb8ed436e)
@@ -41,5 +43,5 @@ Blocking statement
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/57afd45d-d7b6-42d9-b25e-e5858d4612f9)
 After GLS
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/92f25ac2-c492-434a-8d79-bec37b51802c)
-
+</details>
 
