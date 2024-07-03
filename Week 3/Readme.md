@@ -44,14 +44,44 @@ Using -Ofast Optimization number of instructions are reduced to 11
 From rv32i.v design we can observe that the designers of this code has hard coded the instrcutions.Below fig shows the instructions
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/12a94d34-ca23-4fed-b190-58c3daf73c96)
 
+All Outputs of an instructions are shown in next cycle
 > ADD R6, R2, R1
 
-As we can observe that value stored in registers are 1 and 2 and the output in next cycle is 3.
+As we can observe that value stored in registers are 1 and 2 and the output in next cycle is 3. Instruction is stored in location of 32'h02208300
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/eb3ff81f-844e-4e71-92c9-ebc19bf30742)
 
-> Sub
+> SUB R7, R1, R2
 
+Values stored in registers are 1 and 2, output = -1
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/6f28f18a-84e4-4264-93af-21db6b3a8f7d)
 
+> OR R9, R2, R5
+
+Value1  = 2(0010), Value2 = 5(0101), Output = 7(0111)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/1f3295ca-78c0-417a-8e04-f5164308a395)
+
+> SLT R1, R2, R4
+
+r1 is the destination register that sets to 1, if r2 is less than r4, else 0 if r2 is greater than r4.
+
+> ADDI R12, R4, 5
+
+The add immediate (ADDI) instruction is used to add integers between a register and an immediate (constant) value. A destination register holds the outcome.
+Value1 = R4(4), Value2 = 5, Output = 9
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/b69d921c-f645-4129-93bd-fd1c8f58de32)
+
+> BEQ R0, R0, 15
+
+BEQ stands for "Branch if Equal". BEQ checks if the value in a register named r0 is equal to itself (r0 == r0). If it is, the program jumps ahead by 15 instructions. Otherwise, it continues to the next instruction, like normal.
+from figure R0 is same, so it increases the PC by 15, Output = 25
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/0386659b-43ec-43a8-a1ab-5d90310b6554)
+
+> BNE R0, R1, 20
+
+BNE stands for "Branch if Not Equal". BNE checks if the value in register r0 is different from the value in register r1 (r0 != r1). If the values in r0 and r1 are not equal, the program jumps ahead by 20 instructions. This means the program skips the next 19 instructions.
+If the values in r0 and r1 are equal, the program continues normally to the next instruction in sequence (PC + 4).
+
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/7bafb4e9-0caa-4105-ac95-f63eddaf975a)
 
 ## Synthesis of RiscV
 
