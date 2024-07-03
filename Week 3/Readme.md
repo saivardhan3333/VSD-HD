@@ -1,7 +1,9 @@
 Executed the sum of the numbers from 1 to n the C code using gcc and riscv compiler
 <details>
     
-<summary> **Basic C** </summary>
+<summary> 
+    ## Basic C 
+</summary>
 
     sudo apt install leafpad
     leafpad sum1ton.c &
