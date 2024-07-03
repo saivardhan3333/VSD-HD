@@ -1,5 +1,7 @@
 Executed the sum of the numbers from 1 to n the C code using gcc and riscv compiler
-/* ## Basic C
+<details>
+    
+<summary>## Basic C</summary>
 
     sudo apt install leafpad
     leafpad sum1ton.c &
@@ -11,7 +13,9 @@ Here is C programe for sum 1 to n in leafpad editor
 
 Output of the above code
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/f542d1a0-d210-4275-90f8-fcc586f47851)
-*/
+
+</details>
+
 ## Risc V
 
 Below are steps to compile the code in RISC V
