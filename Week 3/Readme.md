@@ -1,9 +1,7 @@
 Executed the sum of the numbers from 1 to n the C code using gcc and riscv compiler
 <details>
     
-<summary> 
-    ## Basic C 
-</summary>
+<summary> Basic C </summary>
 
     sudo apt install leafpad
     leafpad sum1ton.c &
@@ -18,7 +16,8 @@ Output of the above code
 
 </details>
 
-## Risc V
+<details>
+<summary>Risc V</summary>
 
 Below are steps to compile the code in RISC V
 
@@ -40,8 +39,10 @@ The main function's instruction count with -O1 optimisation is 14
         /main
 Using -Ofast Optimization number of instructions are reduced to 11
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/15796d57-7b9f-47d9-a34d-4f77f25d6afa)
+</details>
 
-## Simulation of riscv
+<details>
+<summary>Simulation of riscv</summary>
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/204ea012-ac5d-4f8d-b898-562cebf0a373)
 
     iverilog rv32i.v rv32i_tb.v
@@ -90,6 +91,7 @@ BNE stands for "Branch if Not Equal". BNE checks if the value in register r0 is 
 If the values in r0 and r1 are equal, the program continues normally to the next instruction in sequence (PC + 4).
 
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/7bafb4e9-0caa-4105-ac95-f63eddaf975a)
+</details>
 
 ## Synthesis of RiscV
 
