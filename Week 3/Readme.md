@@ -118,10 +118,10 @@ The output waveform for the RTL design file and the gtkwave output for the netli
 
 Below we can observe
 > ADD R6, R2, R1 and SUB R7, R1, R2
-![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/f47a6a8e-d911-4560-be8c-b7a9c8b691e1)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/96ca79bb-0b78-4870-bdaf-4395949dad7f)
 
 > OR R9, R2, R5
-![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/4e5317a5-76a1-4c3a-b8e3-66cb3b1c9081)
+![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/df266ba6-83d4-42f7-9b2d-516849e1c690)
 
 </details>
      
