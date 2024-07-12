@@ -120,8 +120,21 @@ Below we can observe
 > ADD R6, R2, R1 and SUB R7, R1, R2
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/96ca79bb-0b78-4870-bdaf-4395949dad7f)
 
+> SUB R7, R1, R2
+![image](https://github.com/user-attachments/assets/0dac470e-ac91-49b4-8db8-b95fd786c3c5)
+
 > OR R9, R2, R5
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/df266ba6-83d4-42f7-9b2d-516849e1c690)
+
+> SLT R1, R2, R4
+![image](https://github.com/user-attachments/assets/eb91feb6-0405-4893-8109-e2b224b94ec7)
+
+> ADDI R12, R4, 5
+![image](https://github.com/user-attachments/assets/779c4abe-468b-4e78-94ae-d359bdaf35be)
+
+> BEQ R0, R0, 15
+![image](https://github.com/user-attachments/assets/f40db6c7-6e5b-45be-8fb1-7e90af5206ed)
+
 
 </details>
      
