@@ -10,7 +10,6 @@ Installing OpenSTA
     cmake ..
     make
 ![image](https://github.com/user-attachments/assets/169bbb6c-e641-4c8a-acd5-dc1b8ba02d45)
-![image](https://github.com/user-attachments/assets/16ede09e-4d5d-4dab-a256-2b10b586cec0)
 
            from   Ubuntu   Macos
                 22.04.2  14.4.1
