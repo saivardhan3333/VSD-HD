@@ -9,6 +9,8 @@ Installing OpenSTA
     cd build
     cmake ..
     make
+![image](https://github.com/user-attachments/assets/169bbb6c-e641-4c8a-acd5-dc1b8ba02d45)
+![image](https://github.com/user-attachments/assets/16ede09e-4d5d-4dab-a256-2b10b586cec0)
 
            from   Ubuntu   Macos
                 22.04.2  14.4.1
@@ -23,5 +25,16 @@ Installing OpenSTA
   External library required for Opensta Eigen
 
     libeigen3-dev
-  
+  ![image](https://github.com/user-attachments/assets/d14bf0da-bed8-402a-a314-42d150ed9954)
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/586bcf83-7977-472d-a769-f6e1f73ed927)
+
+
 </details>
