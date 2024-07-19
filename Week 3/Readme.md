@@ -96,14 +96,17 @@ If the values in r0 and r1 are equal, the program continues normally to the next
 <Summary>Synthesis of RiscV</Summary>
 
     yosys
-    read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+    read_liberty -lib lib/sky130_fd_sc_hd__tt_025C_1v80.lib
     read_verilog rv32i.v
     synth -top rv32i
-    abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+    dfflibmap -liberty ..lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+    proc ; opt	
+    abc -liberty ..lib/sky130_fd_sc_hd__tt_025C_1v80.lib
     clean
-    flatten
-    write_verilog  -noattr rv32i_synth.v
-rv32i_synth file is generated as we can see in below figure
+    flatten 
+    write_verilog -noattr rv32i_netlist.v
+    
+rv32i_netlist file is generated as we can see in below figure
 ![image](https://github.com/saivardhan3333/VSD-HD/assets/60193705/1b8ca17e-b148-4db1-b616-121dbd8228d4)
 
 </details>
@@ -111,7 +114,7 @@ rv32i_synth file is generated as we can see in below figure
 <details>
     <summary> GLS Simulation </summary>
 
-    iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v         rv32i_synth.v rv32i_tb.v
+    iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v rv32i_netlist.v rv32i_tb.v
     ./a.out
     gtkwave rv32i.vcd
 The output waveform for the RTL design file and the gtkwave output for the netlist must match perfectly. We used the same testbench and compared the waveforms because the netlist and design code have the same set of inputs and outputs.
