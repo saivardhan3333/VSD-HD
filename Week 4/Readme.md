@@ -29,11 +29,22 @@ Installing OpenSTA
 
 
 
+    sta
+    read_liberty ./sky130_fd_sc_hd__tt_025C_1v80.lib
+    read_verilog ./verilogfiles/rv32i_synth.v <Path to synthesized netlist file>
+    link_design rv32i
+    current_design
+    read_sdc ../sky130RTLDesignAndSynthesisWorkshop/sdc/riscv_core_synthesis.sdc
+    create_clock -name clk -period 10.0000 [get_ports {clk}]
+    check_setup -verbose -unconstrained_endpoints
+    report_checks -path_delay min_max -fields {nets cap slew input_pins fanout} -digits {4}
+> Min Path
+![image](https://github.com/user-attachments/assets/ea960bd6-05bf-4fd9-8097-f09d9bd96c93)
+![image](https://github.com/user-attachments/assets/8c167e3a-7e8a-4463-a69a-f4896af88e02)
 
-
-
-
-![image](https://github.com/user-attachments/assets/586bcf83-7977-472d-a769-f6e1f73ed927)
+> Max Path
+![image](https://github.com/user-attachments/assets/02b8ee9f-da2b-48fc-b12b-1f38e69e675f)
+![image](https://github.com/user-attachments/assets/45687c51-cbb8-402b-a35d-c89637b3d037)
 
 
 </details>
