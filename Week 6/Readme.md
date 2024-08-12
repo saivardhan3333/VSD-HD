@@ -40,6 +40,8 @@ To view below floorplan we have to use this path and command
 
     run_placement
 ![image](https://github.com/user-attachments/assets/74443e4b-187a-491a-b982-413d4b90d3c9)
+![image](https://github.com/user-attachments/assets/4d99a71c-678e-4ba6-a185-4fd9731e4b44)
+
 
     ** magic -T <path to .tech file> lef read <path to .lef file> def read <name of .def file> & **
     magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def
