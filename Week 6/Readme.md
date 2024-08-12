@@ -16,8 +16,11 @@ To invoke openlane and perform the flow we have to get into this directory
 
 Calculate flop ratio
 ![image](https://github.com/user-attachments/assets/b6462e71-f2f3-47d8-bdf1-3df62c8ce631)
+
 Number of flipflops(dfxtp) = 1613
+
 flop ratio = 1613/14876 = 0.1084
+
 % of dff's = 0.1084 * 100 = 10.84%
 
     run_floorplan
