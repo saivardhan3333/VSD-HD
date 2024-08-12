@@ -31,6 +31,7 @@ To view below floorplan we have to use this path and command
   ![image](https://github.com/user-attachments/assets/fce13e63-dae3-49df-a89f-0a4e944d5888)
   Equal spacing between cells
   ![image](https://github.com/user-attachments/assets/35785e41-24f8-4c6a-b532-a248356048d1)
+  
   The selected cell is buffer as we can see in tkcon terminal
   ![image](https://github.com/user-attachments/assets/b98a7c61-ee6e-469f-a3f5-a7cfa4a6c3bc)
 
