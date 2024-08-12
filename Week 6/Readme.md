@@ -22,9 +22,9 @@ Number of flipflops(dfxtp) = 1613
   ![image](https://github.com/user-attachments/assets/55f963ee-ec4a-4979-93dc-fdb8deb53fe0)
   ![image](https://github.com/user-attachments/assets/ca1a62e8-1b01-4bf3-ae5a-7abede1dc441)
 To view below floorplan we have to use this path and command 
-
-    #magic -T <path to .tech file> lef read <path to .lef file> def read <name of .def file> &
-    magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def
+# magic -T <path to .tech file> lef read <path to .lef file> def read <name of .def file> &
+    # magic -T <path to .tech file> lef read <path to .lef file> def read <name of .def file> &
+    magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def
     
   ![image](https://github.com/user-attachments/assets/fce13e63-dae3-49df-a89f-0a4e944d5888)
   Equal spacing between cells
