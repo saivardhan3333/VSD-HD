@@ -16,10 +16,14 @@ To invoke openlane and perform the flow we have to get into this directory
 ![image](https://github.com/user-attachments/assets/f4bd5398-e6d8-4491-96ea-157813f2302e)
 ![image](https://github.com/user-attachments/assets/6f976ca0-ff94-4abc-b394-e663418886ea)
 
+calculate flop ratio
+![image](https://github.com/user-attachments/assets/b6462e71-f2f3-47d8-bdf1-3df62c8ce631)
+
+
 
 
 
     
-Run 'picorv32a' design synthesis using OpenLANE flow 
+
     
 </details>
