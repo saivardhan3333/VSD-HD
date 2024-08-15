@@ -8,7 +8,8 @@ To invoke openlane and perform the flow we have to get into this directory
     package require openlane 0.9
 
 ![image](https://github.com/user-attachments/assets/09bf153c-cd1d-4ba4-bcd1-51b08a51e750)
-
+<details>
+<summary> Synthesis </summary>
 
     run_synthesis
 ![image](https://github.com/user-attachments/assets/f4bd5398-e6d8-4491-96ea-157813f2302e)
@@ -22,6 +23,8 @@ Number of flipflops(dfxtp) = 1613
 flop ratio = 1613/14876 = 0.1084
 
 % of dff's = 0.1084 * 100 = 10.84%
+
+</details>
 
     run_floorplan
   ![image](https://github.com/user-attachments/assets/55f963ee-ec4a-4979-93dc-fdb8deb53fe0)
