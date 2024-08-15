@@ -25,9 +25,11 @@ flop ratio = 1613/14876 = 0.1084
 % of dff's = 0.1084 * 100 = 10.84%
 
 </details>
+
+
 <details>
   <summary> Floorplan </summary>
-</details>
+
     run_floorplan
   ![image](https://github.com/user-attachments/assets/55f963ee-ec4a-4979-93dc-fdb8deb53fe0)
   ![image](https://github.com/user-attachments/assets/ca1a62e8-1b01-4bf3-ae5a-7abede1dc441)
@@ -43,6 +45,7 @@ To view below floorplan we have to use this path and command
   The selected cell is buffer as we can see in tkcon terminal
   ![image](https://github.com/user-attachments/assets/b98a7c61-ee6e-469f-a3f5-a7cfa4a6c3bc)
 </details>
+
 <details>
   <summary> Placements </summary>
 
