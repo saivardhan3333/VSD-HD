@@ -25,7 +25,9 @@ flop ratio = 1613/14876 = 0.1084
 % of dff's = 0.1084 * 100 = 10.84%
 
 </details>
-
+<details>
+  <summary> Floorplan </summary>
+</details>
     run_floorplan
   ![image](https://github.com/user-attachments/assets/55f963ee-ec4a-4979-93dc-fdb8deb53fe0)
   ![image](https://github.com/user-attachments/assets/ca1a62e8-1b01-4bf3-ae5a-7abede1dc441)
@@ -40,6 +42,9 @@ To view below floorplan we have to use this path and command
   
   The selected cell is buffer as we can see in tkcon terminal
   ![image](https://github.com/user-attachments/assets/b98a7c61-ee6e-469f-a3f5-a7cfa4a6c3bc)
+</details>
+<details>
+  <summary> Placements </summary>
 
     run_placement
 ![image](https://github.com/user-attachments/assets/74443e4b-187a-491a-b982-413d4b90d3c9)
@@ -49,8 +54,7 @@ To view below floorplan we have to use this path and command
     ** magic -T <path to .tech file> lef read <path to .lef file> def read <name of .def file> & **
     magic -T ../../../../../../../pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def
 ![image](https://github.com/user-attachments/assets/18dd0ddb-b5cf-441e-b1c4-f84e33b026d3)
-
-
+</details>
 
 
 
@@ -61,4 +65,36 @@ To view below floorplan we have to use this path and command
     
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </details>
